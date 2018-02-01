@@ -1,86 +1,40 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Пух-Платок</title>
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-
+<?include "header.php";?>
+<div class="main_top_slider">
+  <div class="main_top_slider_item" style="background-image: url(../image/main_top_slider_img_1.png);">
+    <div class="container">
+      <div class="main_top_slider_item_content" style="background-color: rgba(3, 11, 53, 0.239);">
+        <div class="main_top_slider_item_content_top">Новая коллекция</div>
+        <div class="main_top_slider_item_content_mid">Wild West</div>
+        <div class="main_top_slider_item_content_bottom">100% натуральное</div>
       </div>
-      <div class="menu_background">
-        <div class="container menu_container">
-          <ul class="menu">
-
-          </ul>
-          <div class="basket_btn">
-
-          </div>
-        </div>
+    </div>
+  </div>
+  <div class="main_top_slider_item" style="background-image: url(../image/main_top_slider_img_2.png);">
+    <div class="container">
+      <div class="main_top_slider_item_content" style="background-color: rgba(250, 211, 90, 0.239);">
+        <div class="main_top_slider_item_content_top">скидки на женские платья</div>
+        <div class="main_top_slider_item_content_mid">30%</div>
+        <div class="main_top_slider_item_content_bottom">до 30 февраля</div>
       </div>
-    </header>
-
-    <footer>
-      <div class="social_background">
-        <div class="container social">
-          <a class="fb" href="#"></a>
-          <a class="vk" href="#"></a>
-          <a class="ok" href="#"></a>
-          <a class="tw" href="#"></a>
-          <a class="you" href="#"></a>
-          <a class="pp" href="#"></a>
-          <a class="dm" href="#"></a>
-        </div>
+    </div>
+  </div>
+  <div class="main_top_slider_item" style="background-image: url(../image/main_top_slider_img_1.png);">
+    <div class="container">
+      <div class="main_top_slider_item_content" style="background-color: rgba(3, 11, 53, 0.239);">
+        <div class="main_top_slider_item_content_top">Новая коллекция</div>
+        <div class="main_top_slider_item_content_mid">Wild West</div>
+        <div class="main_top_slider_item_content_bottom">100% натуральное</div>
       </div>
-      <div class="footer_mid">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="logo_footer">
-                <img src="/img/logo_footer.png" alt="">
-              </div>
-            </div>
-            <div class="col-md-3 footer_catalog">
-              <a href="#">ДЛЯ <br />МУЖЧИН</a>
-              <a href="#">ДЛЯ <br />ЖЕНЩИН</a>
-              <a href="#">ДЛЯ <br />ДЕТЕЙ</a>
-              <a href="#"><b>РАСПРО<br />ДАЖА</b></a>
-            </div>
-            <div class="col-md-3">
-              <div class="footer_menu">
-                <ul class="footer_menu_ul">
-                  <li><a href="">О компании</a></li>
-                  <li><a href="">Доставка и оплата</a></li>
-                  <li><a href="">Помощь</a></li>
-                  <li><a href="">Контакты</a></li>
-                  <li><a href="">Личный кабинет</a></li>
-                  <li><a href="">Поиск по сайту</a></li>
-                  <li><a href="">Карта сайта</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="footer_phone">
-                Звонок по россии<br />
-                бесплатный<br />
-                <a href="88005556607">8 800 555 66 07</a><br /><br />
-                Москва<br />
-                <a href="84952150863">8 (495) 215-08-63</a><br /><br />
-                Санкт-Петербург<br />
-                <a href="84952150863">8 (495) 215-08-63</a>
-
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </div>
+  <div class="main_top_slider_item" style="background-image: url(../image/main_top_slider_img_2.png);">
+    <div class="container">
+      <div class="main_top_slider_item_content" style="background-color: rgba(250, 211, 90, 0.239);">
+        <div class="main_top_slider_item_content_top">скидки на женские платья</div>
+        <div class="main_top_slider_item_content_mid">30%</div>
+        <div class="main_top_slider_item_content_bottom">до 30 февраля</div>
       </div>
-    </footer>
-
-    <script type="text/javascript" src="/js/bootstrap/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/slick/slick.min.js"></script>
-  </body>
-</html>
+    </div>
+  </div>
+</div>
+<?include "footer.php";?>
