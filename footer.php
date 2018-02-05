@@ -1,13 +1,13 @@
 <footer>
   <div class="social_background">
     <div class="container social">
-      <a class="fb" href="#"></a>
+      <!-- <a class="fb" href="#"></a>
       <a class="vk" href="#"></a>
       <a class="ok" href="#"></a>
       <a class="tw" href="#"></a>
       <a class="you" href="#"></a>
       <a class="pp" href="#"></a>
-      <a class="dm" href="#"></a>
+      <a class="dm" href="#"></a> -->
     </div>
   </div>
   <div class="footer_mid">
