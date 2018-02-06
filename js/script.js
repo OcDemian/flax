@@ -26,4 +26,6 @@ $(document).ready(function(){
     parent.toggleClass('click');
     return false;
   });
+
+  $('input.input-custom').styler();
 });
