@@ -41,21 +41,21 @@
 <div class="container">
   <div class="catalog_baner">
     <div class="catalog_baner_item">
-      <img class="catalog_baner_item_fon" src="../image/catalog_baner_1.png" alt="">
+      <img class="catalog_baner_item_fon" src="../image/catalog_baners_1.png" alt="">
       <a class="catalog_baner_item_text">
         для<br /> мужчин
       </a>
     </div>
 
     <div class="catalog_baner_item">
-      <img class="catalog_baner_item_fon" src="../image/catalog_baner_2.png" alt="">
+      <img class="catalog_baner_item_fon" src="../image/catalog_baners_2.png" alt="">
       <a class="catalog_baner_item_text">
         для<br /> женщин
       </a>
     </div>
 
     <div class="catalog_baner_item">
-      <img class="catalog_baner_item_fon" src="../image/catalog_baner_3.png" alt="">
+      <img class="catalog_baner_item_fon" src="../image/catalog_baners_3.png" alt="">
       <a class="catalog_baner_item_text">
         для<br /> детей
       </a>

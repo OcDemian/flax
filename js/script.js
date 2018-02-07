@@ -12,6 +12,29 @@ $(document).ready(function(){
     slidesToScroll: 4,
     infinite: false,
     speed: 1000,
+    responsive: [
+   {
+     breakpoint: 1920,
+     settings: {
+       slidesToShow: 4,
+       slidesToScroll: 4
+     }
+   },
+   {
+     breakpoint: 1000,
+     settings: {
+       slidesToShow: 2,
+       slidesToScroll: 2
+     }
+   },
+   {
+     breakpoint: 640,
+     settings: {
+       slidesToShow: 1,
+       slidesToScroll: 1
+     }
+   }
+ ]
   });
 
   $('#popular_carusel').slick({
@@ -19,6 +42,29 @@ $(document).ready(function(){
     slidesToScroll: 4,
     infinite: false,
     speed: 1000,
+    responsive: [
+   {
+     breakpoint: 1920,
+     settings: {
+       slidesToShow: 4,
+       slidesToScroll: 4
+     }
+   },
+   {
+     breakpoint: 1000,
+     settings: {
+       slidesToShow: 2,
+       slidesToScroll: 2
+     }
+   },
+   {
+     breakpoint: 640,
+     settings: {
+       slidesToShow: 1,
+       slidesToScroll: 1
+     }
+   }
+ ]
   });
 
   $('body').on('click', '.catalog_carusel_item_cont_basket_link', function(){
