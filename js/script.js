@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+  $('input.input-custom').styler();
+
   $('.main_top_slider').slick({
     dots: true,
     infinite: true,
@@ -73,5 +76,13 @@ $(document).ready(function(){
     return false;
   });
 
-  $('input.input-custom').styler();
+  $('body').on('click', '.history_body_title_text_detail', function(e){
+    e.preventDefault();
+    var op=$(this).attr('data_open');
+    $('.history_body_item').removeClass('open');
+    $('#'+op).addClass('open');
+    // alert(op);
+  });
+
+
 });
