@@ -63,6 +63,7 @@ input{
 
 header{
   margin-bottom: 15px;
+  overflow: hidden;
 }
 
 .header_top{
@@ -990,7 +991,15 @@ h2.goriz_line::after{
   margin-bottom: 10px;
   align-items: center;
   flex-flow: row wrap;
+}
 
+.registration_main_item textarea{
+  max-width: 299px;
+  height: 160px;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  padding-left: 15px;
 }
 
 .registration_main_item label{
@@ -1008,6 +1017,19 @@ h2.goriz_line::after{
   border-style: solid;
   width: 299px;
   height: 42px;
+  padding-left: 15px;
+}
+
+.registration_main_login .registration_main_item label{
+  width: 85px;
+}
+
+.registration_main_item_forget{
+  margin-left: 20px;
+  font-size: 16px;
+  color: rgb(0, 117, 184);
+  text-decoration: underline;
+  line-height: 1.2;
 }
 
 .registration_main_item_tip{
@@ -1097,6 +1119,39 @@ label.registration_main_item_check:hover::before{
   text-transform: uppercase;
   line-height: 1.2;
   margin-left: 145px;
+}
+
+.registration_main_item_btn{
+  padding-left: 85px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.registration_main_item_btn_open{
+  background-color: rgb(123, 162, 112);
+  width: 95px;
+  height: 44px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  border: none;
+  margin-right: 15px;
+}
+
+.registration_main_item_btn_reg{
+  background-color: rgba(215, 215, 215, 0.522);
+  width: 140px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: rgb(82, 81, 81);
+  text-transform: uppercase;
+  line-height: 1.2;
+
 }
 
 .registration_seti {
@@ -1343,7 +1398,7 @@ label.registration_main_item_check:hover::before{
 }
 
 .order_prof_title_del{
-  width: 10;
+  width: 10%;
 }
 
 .order_prof_body_item{
@@ -1351,6 +1406,70 @@ label.registration_main_item_check:hover::before{
   display: flex;
   flex-flow: row wrap;
 }
+
+.order_prof_edit{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  margin-bottom: 75px;
+}
+
+.order_prof_edit .registration_main_item{
+  align-items: flex-start;
+}
+
+.registration_main_item_lab_aft:after{
+  content: "Улица, дом, корпус,  подъезд, квартира,  номер домофона";
+  font-size: 16px;
+  color: rgb(82, 81, 81);
+  line-height: 1.2;
+  font-weight: normal;
+  display: block;
+  margin-top: 15px;
+}
+
+.order_prof_edit_btn{
+  display: flex;
+  margin-top: 35px;
+}
+
+.order_prof_edit_btn_save{
+  background-color: rgb(123, 162, 112);
+  width: 229px;
+  height: 44px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  border: none;
+  margin-right: 15px;
+}
+
+.order_prof_edit_btn_otm{
+  background-color: rgba(215, 215, 215, 0.522);
+  width: 98px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: rgb(82, 81, 81);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.back_link{
+  font-size: 16px;
+  color: rgb(0, 117, 184);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
 /* FOOTER */
 
 .social_background {
@@ -1523,10 +1642,20 @@ footer{
 
   .order_prof_title_code{
     width: 10%;
+    padding: 30px 0;
   }
 
   .order_prof_title_date{
     width: 30%;
+  }
+
+  .registration{
+    flex-wrap:  wrap;
+  }
+
+  .registration_main_login{
+    width: 100%;
+    margin-bottom: 35px;
   }
 }
 
@@ -1658,6 +1787,31 @@ footer{
     margin-right: 3%;
   }
 
+  .order_prof{
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .order_prof_title{
+    width: 750px;
+  }
+
+  .order_prof_body{
+    width: 750px;
+  }
+
+  .order_prof_edit{
+    padding: 0 40px;
+  }
+
+  .registration_main_one{
+    margin-bottom: 15px;
+  }
+
+  .back_link{
+    margin-left: 40px;
+  }
+
 }
 
 @media (max-width: 639px) {
@@ -1743,7 +1897,7 @@ footer{
   }
 
   .registration_main_item_tip{
-    padding-left: 30%;
+    padding-left: 35%;
   }
 
   .registration_main_item input{
@@ -1798,6 +1952,47 @@ footer{
   .personal_link:nth-child(odd){
     margin-right: 0;
   }
+
+  .order_prof_title_item {
+    padding: 30px 10px;
+  }
+
+  .order_prof_title_code{
+    width: 8%;
+  }
+
+  .registration_main_login .registration_main_item_forget{
+    padding-top: 10px;
+    padding-left: 35%;
+    margin-left: 0;
+  }
+
+  .registration_main_item_btn{
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .registration_main_one{
+    margin-bottom: 15px;
+  }
+
+  .order_prof_edit_btn{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .order_prof_edit{
+    padding: 0 10px;
+  }
+
+  .back_link{
+    margin-left: 10px;
+  }
+
+  .registration_main_item textarea{
+    max-width: 65%;
+  }
+
 
 }
 

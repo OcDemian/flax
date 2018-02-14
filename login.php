@@ -10,7 +10,7 @@
   <h1 class="main_h1">Вход в личный кабинет</h1>
 
   <div class="registration">
-    <div class="registration_main">
+    <div class="registration_main registration_main_login">
       <form action="" method="">
 
         <div class="registration_main_item">
@@ -21,12 +21,12 @@
         <div class="registration_main_item">
           <label for="">Пароль</label>
           <input type="text" name="" value="">
-          <a href="#">Забыли пароль?</a>
+          <a class="registration_main_item_forget" href="#">Забыли пароль?</a>
         </div>
 
-        <div class="">
-          <input type="submit" name="" value="Войти">
-          <a href="#">Регистрация</a>
+        <div class="registration_main_item_btn">
+          <input class="registration_main_item_btn_open" type="submit" name="" value="Войти">
+          <a class="registration_main_item_btn_reg" href="#">Регистрация</a>
         </div>
 
       </form>

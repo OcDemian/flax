@@ -49,5 +49,8 @@
   <li>
     <a target="_blank" href="/order_profile.php">Профили заказов</a>
   </li>
+  <li>
+    <a target="_blank" href="/order_profile_edit.php">Профили заказов детальная</a>
+  </li>
 </ul>
 <?include "footer.php";?>
