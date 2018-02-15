@@ -34,9 +34,9 @@
           <input type="text" name="" value="">
         </div>
 
-        <div class="registration_main_item registration_main_item_check_body">
-          <input class="registration_main_item_checkbox" id="agreement" type="checkbox" name="" value="">
-          <label class="registration_main_item_check" for="agreement"></label>
+        <div class="registration_main_item registration_main_item_check_body castom_checkbox">
+          <input class="castom_checkbox_input registration_main_item_checkbox" id="agreement" type="checkbox" name="" value="">
+          <label class="castom_checkbox_label registration_main_item_check" for="agreement"></label>
           <p class="registration_main_item_text">
             Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в <a>Согласии на обработку персональных данных</a>
           </p>

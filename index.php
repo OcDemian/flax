@@ -52,5 +52,14 @@
   <li>
     <a target="_blank" href="/order_profile_edit.php">Профили заказов детальная</a>
   </li>
+  <li>
+    <a target="_blank" href="/order_make.php">Оформление заказа</a>
+  </li>
 </ul>
+
+<div class="castom_checkbox">
+  <input class="castom_checkbox_input" id="agreement" type="checkbox" name="" value="">
+  <label class="castom_checkbox_label" for="agreement"></label>
+</div>
+
 <?include "footer.php";?>

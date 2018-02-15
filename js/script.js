@@ -84,5 +84,9 @@ $(document).ready(function(){
     // alert(op);
   });
 
+  $('body').on('click', '.order_make_info_buyer_title_btn', function(e){
+    e.preventDefault();
+    $('.order_make').toggleClass('open');
+  });
 
 });
