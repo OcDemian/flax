@@ -41,7 +41,10 @@
     <a target="_blank" href="/news.php">Новости детальная</a>
   </li>
   <li>
-    <a target="_blank" href="/personal.php">Личный кабинет</a>
+    <a target="_blank" href="/personal.php">Мой кабинт</a>
+  </li>
+  <li>
+    <a target="_blank" href="/personal_data.php">Личные данные</a>
   </li>
   <li>
     <a target="_blank" href="/order_history.php">История заказов</a>
@@ -54,6 +57,12 @@
   </li>
   <li>
     <a target="_blank" href="/order_make.php">Оформление заказа</a>
+  </li>
+  <li>
+    <a target="_blank" href="/">Список товаров</a>
+  </li>
+  <li>
+    <a target="_blank" href="/detail_tovar.php">Детальная страница товара</a>
   </li>
 </ul>
 

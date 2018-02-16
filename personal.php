@@ -3,11 +3,11 @@
   <div class="breadcrumbs">
     <ul class="breadcrumbs_list">
       <li><a href="">Главная</a>&#8212;</li>
-      <li><span>Личный кабинет</span></li>
+      <li><span>Мой кабинет</span></li>
     </ul>
   </div>
 
-  <h1 class="main_h1">Личный кабинет</h1>
+  <h1 class="main_h1">Мой кабинет</h1>
   <div class="personal">
     <?
     $name=array('История заказов', 'Личные данные', 'Профили заказов', 'Корзина', 'Выход <br /> из личного кабинета');

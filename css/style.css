@@ -679,6 +679,7 @@ h2.goriz_line::after{
   display: flex;
   padding: 0;
   flex-flow: row wrap;
+  font-size: 14px;
 }
 
 .breadcrumbs_list li{
@@ -1513,16 +1514,31 @@ label.registration_main_item_check{
 .order_make_info_tovar_title{
   border-bottom: 1px solid #d7d7d7;
   padding: 20px 20px 15px 20px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order_make_info_tovar_title_text{
   font-size: 18px;
   color: rgb(51, 51, 51);
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
+  margin: 0;
+}
+
+.order_make_info_tovar_title_link{
+  color: rgb(51, 51, 51);
+  text-decoration: underline;
 }
 
 .order_make_info_tovar_list{
   padding: 20px 20px 15px 20px;
   border-bottom: 1px solid #d7d7d7;
+}
+
+.open .order_make_info_tovar_list{
+  border-bottom: none;
 }
 
 .order_make_info_tovar_list_item{
@@ -1554,6 +1570,10 @@ label.registration_main_item_check{
 .order_make_info_tovar_cupon{
   padding: 20px 20px 15px 20px;
   border-bottom: 1px solid #d7d7d7;
+}
+
+.open .order_make_info_tovar_cupon{
+  display: none;
 }
 
 .order_make_info_tovar_cupon_box{
@@ -1591,6 +1611,10 @@ label.registration_main_item_check{
   justify-content: flex-end;
 }
 
+.open .order_make_info_tovar_btn{
+  display: none;
+}
+
 .order_make_info_tovar_btn_next{
   display: flex;
   justify-content: center;
@@ -1607,7 +1631,6 @@ label.registration_main_item_check{
 
 .order_make_info_buyer{
   border: 1px solid #d7d7d7;
-  margin-bottom: 35px;
 }
 
 .order_make_info_buyer_title {
@@ -1618,16 +1641,12 @@ label.registration_main_item_check{
   border-bottom: 1px solid #d7d7d7;
 }
 
-.order_make_info_buyer_title_btn{
+.order_make_info_buyer_title{
   font-size: 18px;
   color: rgb(51, 51, 51);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
-}
-
-.order_make_info_buyer_title_btn:hover{
-  cursor: pointer;
 }
 
 .order_make_info_buyer_body{
@@ -1692,6 +1711,7 @@ label.registration_main_item_check{
   font-size: 12px;
   color: rgb(82, 81, 81);
   line-height: 1.2;
+  margin-top: 35px;
   margin-bottom: 45px;
   width: 50%;
 }
@@ -1766,6 +1786,270 @@ label.registration_main_item_check{
   bottom:-21px;
 }
 
+.personal_data{
+  margin-bottom: 90px;
+}
+
+.personal_data_time{
+  margin-top:40px;
+  margin-bottom: 30px;
+}
+
+.personal_data_time_update{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.549);
+  margin-bottom: 0;
+}
+
+.personal_data_time_login{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.549);
+  margin-bottom: 0;
+}
+
+.personal_data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal_data_main .registration_main_item label{
+  width: 30%;
+}
+
+.personal_data_main .registration_main_item input{
+  width: 350px;
+}
+.personal_data_main .registration_main_item_tip{
+  padding-left: 30%;
+}
+
+.personal_data_main_email{
+  margin-bottom: 40px;
+}
+
+.personal_data_main_save{
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(123, 162, 112);
+  width: 229px;
+  height: 44px;
+  border: none;
+  margin-right: 20px;
+}
+
+.personal_data_main_back{
+  background-color: rgba(215, 215, 215, 0.522);
+  width: 98px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(82, 81, 81);
+  text-transform: uppercase;
+}
+
+.tovar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tovar_menu_left{
+  width: 22%;
+}
+
+.tovar_cointent{
+  width: 78%;
+  padding-left: 40px;
+}
+
+.menu_left_lvl_one{
+  padding-left: 40px;
+  font-size: 14px;
+  color: rgb(36, 45, 64);
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+
+.menu_left_lvl_one_item{
+  margin-bottom: 50px;
+}
+
+.menu_left_lvl_one_item_name{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu_left_lvl_two{
+  padding-left: 25px;
+}
+
+.tovar_cointent_title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.tovar_cointent_title h1.main_h1{
+  margin: 0;
+}
+
+.tovar_cointent_title_articul{
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: "FavoritC";
+  color: rgb(36, 45, 64);
+  text-transform: uppercase;
+}
+
+.tovar_cointent_body{
+  display: flex;
+}
+
+.tovar_cointent_body_photos{
+  width: 45%;
+  margin-right: 35px;
+}
+
+.tovar_cointent_body_info_color{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.tovar_cointent_body_info_color a{
+  margin: 4px 7.5px;
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: relative;
+}
+
+.tovar_cointent_body_info_color a:hover:before{
+  content: "";
+  position: absolute;
+  top:-4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  border: 1px solid #000;
+}
+
+.tovar_cointent_body_info_color a.use:before{
+  content: "";
+  position: absolute;
+  top:-4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  border: 1px solid #000;
+}
+
+.tovar_cointent_body_info_size{
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.tovar_cointent_body_info_size a{
+  background-color: rgba(204, 204, 204,0.341);
+  width: 65px;
+  height: 44px;
+  margin-right: 15px;
+  color: rgb(36, 45, 64);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tovar_cointent_body_info_size a:hover{
+  background-color: rgb(0, 117, 184);
+  color: #fff;
+}
+
+.tovar_cointent_body_info_size a.use{
+  background-color: rgb(0, 117, 184);
+  color: #fff;
+}
+
+.tovar_cointent_body_info_info{
+    margin-bottom: 40px;
+}
+
+.tovar_cointent_body_info_info_item{
+  display: flex;
+  align-items: center;
+}
+
+.tovar_cointent_body_info_info_item_one{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 135px;
+  margin-right: 10px;
+}
+
+.tovar_cointent_body_info_info_item_two{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.tovar_cointent_body_info_price{
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.tovar_cointent_body_info_price_new{
+  font-size: 30px;
+  font-family: "FavoritC";
+  color: rgb(233, 88, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.tovar_cointent_body_info_price_old{
+  font-size: 30px;
+  font-family: "FavoritC";
+  text-transform: uppercase;
+  font-weight: 200;
+  text-decoration: line-through;
+}
+
+.tovar_cointent_body_info_btn{
+  display: flex;
+  flex-direction: column;
+}
+
+.tovar_cointent_body_info_btn_basket{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 211, 90);
+  width: 253px;
+  height: 44px;
+  position: relative;
+  font-family: "FavoritC";
+  color: rgb(36, 45, 64);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.tovar_cointent_body_info_btn_by_click{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-color: rgba(204, 204, 204,0.741);
+  border-style: solid;
+  width: 251px;
+  height: 42px;
+  font-size: 18px;
+  color: rgb(36, 45, 64);
+  font-weight: bold;
+}
 
 /* FOOTER */
 
@@ -1955,6 +2239,19 @@ footer{
     margin-bottom: 35px;
   }
 
+  .personal_data_main .registration_main_item label{
+    font-size: 16px;
+    width: 32%;
+  }
+
+  .personal_data_main .registration_main_item input{
+    width: 65%;
+  }
+
+  .personal_data_main .registration_main_item_tip{
+    padding-left: 32%;
+  }
+
 }
 
 @media (max-width: 1090px) {
@@ -2140,6 +2437,31 @@ footer{
     margin-bottom: 60px;
   }
 
+  .personal_data{
+    flex-flow: row wrap;
+  }
+
+  .personal_data_time{
+    padding: 0 40px;
+  }
+
+  .personal_data{
+    padding: 0 40px;
+  }
+
+  .personal_data .personal_data_main{
+    width: 100%;
+  }
+
+  .personal_data_main form{
+    display: block;
+    width: 445px;
+  }
+
+  .personal_data .registration_seti{
+    width: 445px;
+  }
+
 }
 
 @media (max-width: 639px) {
@@ -2323,6 +2645,106 @@ footer{
     max-width: 65%;
   }
 
+  .order_make{
+    padding: 0;
+  }
+
+  .order_make_info_tovar{
+    border-left: none;
+    border-right: none;
+  }
+
+  .order_make_info_tovar_title{
+    padding: 15px;
+  }
+
+  .order_make_info_tovar_list{
+    padding: 15px;
+  }
+
+  .order_make_info_tovar_list_item_photo{
+    width: 35%;
+  }
+
+  .order_make_info_tovar_list_item_info{
+    width: 65%;
+  }
+
+  .order_make_info_tovar_cupon_box{
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .order_make_info_tovar_cupon_text{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .order_make_info_tovar_title_text{
+    font-size: 16px;
+  }
+
+  .order_make_info_check{
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+
+  .order_make_info_buyer_body{
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .order_make_info_buyer_body .registration_main_item{
+    width: 570px;
+  }
+
+  .order_make_info_btn_box{
+    justify-content: center;
+  }
+
+  .order_make_info_btn_box{
+    padding: 0;
+  }
+
+  .personal_data_time{
+    padding: 0 10px;
+  }
+
+  .personal_data{
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .personal_data .personal_data_main{
+    padding: 0 10px;
+  }
+
+  .personal_data_main form{
+    width: 100%;
+  }
+
+  .personal_data_main .registration_main_item input{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .personal_data_main_email{
+    margin-bottom: 0;
+  }
+
+  .personal_data_main input.personal_data_main_password{
+    margin-bottom: 0;
+  }
+
+  .personal_data_main .registration_main_item_tip{
+    padding-left: 0;
+    margin-bottom: 25px;
+  }
+
+  .personal_data .registration_seti{
+    width: 100%;
+  }
 }
 
 @media (max-width: 378px) {

@@ -13,12 +13,13 @@
     <div class="order_make_info">
       <div class="order_make_info_tovar">
         <div class="order_make_info_tovar_title">
-          Товары в заказе
+          <p class="order_make_info_tovar_title_text">Товары в заказе</p>
+          <a class="order_make_info_tovar_title_link" href="#">Изменить</a>
         </div>
         <div class="order_make_info_tovar_list">
           <?
+          $photo=array('basket_price.png','cat_img_5.png');
           for ($i=0; $i <2 ; $i++) {
-            $photo=array('basket_price.png','cat_img_5.png');
             ?>
             <div class="order_make_info_tovar_list_item">
               <div class="order_make_info_tovar_list_item_photo">
@@ -49,7 +50,7 @@
 
       <div class="order_make_info_buyer">
         <div class="order_make_info_buyer_title">
-          <a class="order_make_info_buyer_title_btn" href="#">Покупатель</a>
+          Покупатель
         </div>
         <div class="order_make_info_buyer_body">
           <div class="registration_main_item">

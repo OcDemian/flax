@@ -84,9 +84,20 @@ $(document).ready(function(){
     // alert(op);
   });
 
-  $('body').on('click', '.order_make_info_buyer_title_btn', function(e){
+  $('body').on('click', '.order_make_info_tovar_btn_next', function(e){
     e.preventDefault();
-    $('.order_make').toggleClass('open');
+    $('.order_make').addClass('open');
+    $('html, body').animate({
+       scrollTop: $(".order_make_info_buyer").offset().top
+   }, 500);
+  });
+
+  $('body').on('click', '.order_make_info_buyer_btn', function(e){
+    e.preventDefault();
+    $('.order_make').removeClass('open');
+    $('html, body').animate({
+       scrollTop: $(".order_make_info_tovar").offset().top
+   }, 500);
   });
 
 });
