@@ -72,7 +72,7 @@
           артикул 777 890
         </p>
         <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
+          <a class="use" href="#" style="background:green;"></a>
           <a href="#" style="background:blue;"></a>
           <a href="#" style="background:yellow;"></a>
           <a href="#" style="background:silver;"></a>

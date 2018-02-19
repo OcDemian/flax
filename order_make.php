@@ -35,17 +35,6 @@
           <?}?>
         </div>
 
-        <div class="order_make_info_tovar_cupon">
-          <form class="order_make_info_tovar_cupon_box" method="post">
-            <input class="order_make_info_tovar_cupon_text" type="text" name="" placeholder="Купон на скидку">
-            <input class="order_make_info_tovar_cupon_btn" type="submit" name="" value="Применить">
-          </form>
-        </div>
-
-        <div class="order_make_info_tovar_btn">
-          <a class="order_make_info_tovar_btn_next" href="#">Далее</a>
-        </div>
-
       </div>
 
       <div class="order_make_info_buyer">
@@ -82,8 +71,12 @@
             <textarea name="name" rows="8" cols="80"></textarea>
           </div>
         </div>
-        <div class="order_make_info_buyer_btn_body">
-          <a class="order_make_info_buyer_btn" href="#">Назад</a>
+
+        <div class="order_make_info_tovar_cupon">
+          <form class="order_make_info_tovar_cupon_box" method="post">
+            <input class="order_make_info_tovar_cupon_text" type="text" name="" placeholder="Купон на скидку">
+            <input class="order_make_info_tovar_cupon_btn" type="submit" name="" value="Применить">
+          </form>
         </div>
       </div>
     </div>
