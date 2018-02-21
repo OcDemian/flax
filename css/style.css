@@ -43,7 +43,7 @@ a:hover {
   color:inherit;
 }
 
-img, img:focus, img:hover{
+img, img:focus, img:hover, span, span:focus{
   outline: none;
 }
 
@@ -546,6 +546,50 @@ h2.goriz_line::after{
   overflow: hidden;
 }
 
+.catalog_carusel_item_link{
+  display: block;
+  position: relative;
+}
+
+.sale .catalog_carusel_item_link:before{
+  content: "SALE";
+  position: absolute;
+  background: #e95800;
+  left: 0;
+  top: 0;
+  width: 85px;
+  height: 41px;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: "FavoritC";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.catalog_carusel_item_sale_day{
+  display: none;
+}
+
+.sale .catalog_carusel_item_sale_day{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(233, 88, 0, 0.6);
+  padding: 10px 0;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+}
+
 .catalog_carusel_item img{
     margin: auto;
 }
@@ -569,6 +613,7 @@ h2.goriz_line::after{
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+  flex-flow: row wrap;
 }
 
 .catalog_carusel_item_cont_color a{
@@ -2084,6 +2129,11 @@ label.registration_main_item_check{
   align-items: center;
 }
 
+.tovar_cointent_body_info_size.tovar_cointent_body_info_size_cat a{
+  width: 142px;
+  height: 44px;
+}
+
 .tovar_cointent_body_info_size a:hover{
   background-color: rgb(0, 117, 184);
   color: #fff;
@@ -2262,6 +2312,241 @@ label.registration_main_item_check{
   width: 100%;
 }
 
+.list_tovar_top{
+  position: relative;
+}
+
+.line_big_bottom:after{
+  content: '';
+  display: block;
+  left: 0;
+  right: 0;
+  height: 9px;
+  background-position: center;
+  background-image: url(../img/goriz_line_long.png);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list_tovar_top_text{
+  font-size: 14px;
+  color: rgb(36, 45, 64);
+  line-height: 1.571;
+}
+
+.list_tovar_top_hide_filter{
+  font-size: 14px;
+  color: rgb(0, 117, 184);
+  text-decoration: underline;
+  line-height: 1.286;
+}
+
+.list_tovar_top_hide_filter:hover{
+  color: rgb(0, 117, 184);
+}
+
+.list_tovar_categor{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.list_tovar_categor_item{
+  width: 30%;
+}
+
+.list_tovar_categor_item .catalog_carusel_item{
+  padding: 0;
+}
+
+.list_tovar_categor_item_title{
+  width: 100%;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.list_tovar_categor_item_title:after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 41px;
+  height: 23px;
+  bottom: 40px;
+  left:calc(50% - 20px);
+  background-image: url("../img/arrow_down.png");
+}
+
+.list_tovar_categor_item_title_img{
+  width: 100%;
+  filter: brightness(70%)
+}
+
+.list_tovar_categor_item_title_text{
+  font-size: 36px;
+  font-family: "FavoritC";
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.333;
+  position: absolute;
+  top:60px;
+  left:0;
+  right: 0;
+  text-align:center;
+}
+
+.list_tovar_categor_item .list_tovar_categor_item_list{
+  margin-bottom: 80px;
+}
+
+.list_tovar_categor_item_sale .list_tovar_categor_item_list:last-child{
+  margin-bottom: 0;
+}
+
+.list_tovar_categor_more_btn{
+  background-color: rgb(123, 162, 112);
+  width: 325px;
+  height: 68px;
+  font-size: 18px;
+  font-family: "FavoritC";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.list_tovar_categor_more_btn:hover{
+  color:#fff;
+}
+
+.list_tovar_categor_item_sale{
+  position: absolute;
+  top: -15px;
+  right: -304px;
+  background-color: #fad35a;
+  padding: 15px;
+  width: 30%;
+  box-sizing: content-box;
+  display: none;
+}
+
+.list_tovar_filter{
+  display: flex;
+  flex-direction: column;
+}
+
+.filter_item{
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.filter_item_name{
+  font-family: "FavoritC";
+  color: rgb(36, 45, 64);
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 90px;
+}
+
+.filter_item_content{
+  width: calc(100% - 90px);
+}
+
+.filter_price{
+  height: 45px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.filter_item_content_price{
+  width: 490px;
+  margin: auto;
+}
+
+.filter_item_content_price_ot{
+  position: absolute;
+  top:0;
+  left: 90px;
+  border-width: 1px;
+  border-color: rgba(36, 45, 64, 0.341);
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.341);
+  width: 101px;
+  height: 42px;
+  text-align: right;
+  padding-right: 10px;
+  color:#000;
+}
+
+.filter_item_content_price_defis{
+  display: none;
+}
+
+.filter_item_content_price_do{
+  position: absolute;
+  top:0;
+  right: 0;
+  border-width: 1px;
+  border-color: rgba(36, 45, 64, 0.341);
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.341);
+  width: 101px;
+  height: 42px;
+  text-align: right;
+  padding-right: 10px;
+  color:#000;
+}
+
+.filter_item_content_price_fon{
+  background-color: #c6c6c6;
+  height: 5px;
+  border-radius: 0;
+}
+
+.filter_item_content_price_fon .ui-slider-range{
+  background-color: #0075b8;
+  height: 5px;
+  top:-1px;
+}
+
+.filter_item_content_price_fon  span.ui-slider-handle{
+  border-radius: 10px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  background-color: #0075b8;
+  top:-9px;
+}
+
+.filter_item_content_price_fon  span.ui-slider-handle:hover{
+  cursor: pointer;
+}
+
+.filter_item .filter_item_content .tovar_cointent_body_info_size{
+  margin-bottom: 0;
+}
+
+.filter_item .filter_item_content .catalog_carusel_item_cont_color{
+  margin-bottom: 0;
+  justify-content: flex-start;
+}
+
+.list_tovar_categor_detail{
+
+}
+
+.list_tovar_categor_detail .list_tovar_categor_item_list{
+  width: 32%;
+  margin-bottom: 80px;
+}
 /* FOOTER */
 
 .social_background {
@@ -2420,6 +2705,13 @@ footer{
 
 /* /FOOTER */
 
+@media (min-width: 1800px) {
+  .list_tovar_categor_item_sale{
+    display: block
+  }
+}
+
+
 @media (max-width: 1200px) {
   .history_body_title_text:nth-child(1){
     width: 100%;
@@ -2461,6 +2753,15 @@ footer{
 
   .personal_data_main .registration_main_item_tip{
     padding-left: 32%;
+  }
+
+  .filter_item_content_price{
+    width: 330px;
+  }
+
+  .list_tovar_categor_item_title_text{
+    font-size: 30px;
+    top: 45px;
   }
 
 }
@@ -2715,6 +3016,58 @@ footer{
   .tovar_cointent_tab_content_item.description{
     padding: 0 40px;
   }
+
+  .list_tovar_top{
+    padding: 0 40px;
+  }
+
+  .list_tovar_filter{
+    padding: 0 40px;
+  }
+
+  .filter_item_content_price_fon{
+    display: none;
+  }
+
+  .filter_item_content_price_defis{
+    display: block;
+    font-size: 16px;
+    color: rgb(36, 45, 64);
+    text-transform: uppercase;
+    position: absolute;
+    top: 7px;
+    left:208px;
+  }
+
+  .filter_item_content_price_do{
+    right: auto;
+    left: 230px;
+  }
+
+  .list_tovar_categor{
+    padding: 0 40px;
+  }
+
+  .list_tovar_categor_item{
+    width: 49%;
+  }
+
+  .list_tovar_categor_detail .list_tovar_categor_item_list{
+    width: 49%;
+    margin-bottom: 80px;
+  }
+
+}
+
+@media (max-width: 720px) {
+  .list_tovar_categor_item_title_text{
+    top:25px;
+  }
+
+  .list_tovar_categor_item_title:after{
+    bottom: 10%;
+  }
+
 }
 
 @media (max-width: 639px) {
@@ -2998,6 +3351,55 @@ footer{
   .personal_data .registration_seti{
     width: 100%;
   }
+
+  .list_tovar_top{
+    padding: 0 10px;
+  }
+
+  .list_tovar_filter{
+    padding: 0 10px;
+  }
+
+  .list_tovar_categor{
+    padding: 0 10px;
+  }
+
+  .filter_item_name{
+    display: none;
+  }
+
+  .filter_item_content{
+    width: 100%;
+  }
+
+  .tovar_cointent_body_info_size a{
+    margin-bottom: 10px;
+  }
+
+  .filter_item .filter_item_content .tovar_cointent_body_info_size{
+    flex-flow: row wrap;
+  }
+
+  .filter_item_content_price_ot{
+    left: 0;
+  }
+
+  .filter_item_content_price_defis{
+    left: 118px;
+  }
+
+  .filter_item_content_price_do{
+    left:140px;
+  }
+
+  .list_tovar_categor_item{
+    width: 100%;
+  }
+
+  .list_tovar_categor_detail .list_tovar_categor_item_list{
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 378px) {

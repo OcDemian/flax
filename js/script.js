@@ -109,6 +109,7 @@ $(document).ready(function(){
    fade: true,
    asNavFor: '.tovar_cointent_body_photos_nav'
   });
+
   $('.tovar_cointent_body_photos_nav').slick({
    slidesToShow: 3,
    slidesToScroll: 1,
@@ -117,5 +118,73 @@ $(document).ready(function(){
    centerMode: true,
    focusOnSelect: true
   });
+
+  $('body').on('click', '.catalog_carusel_item_cont_color a', function(e){
+    e.preventDefault();
+    $('.catalog_carusel_item_cont_color a').removeClass('use');
+  });
+
+  $('body').on('click', '.list_tovar_top_hide_filter', function(e){
+    e.preventDefault();
+    $('.list_tovar_filter').toggle();
+  });
+
+  $("#slider-range").slider({
+  range: true,
+  min: 2000,
+  max: 30000,
+  values: [2000, 30000],
+  step: 50,
+  slide: function(event, ui) {
+    $("#rub-left").val(ui.values[0]); // текст левого span
+    $("#rub-right").val(ui.values[1]); // текст правого span
+
+
+    if (ui.handleIndex === 0) {
+      // потянули левый ползунок - переместим левый span
+      //$("#rub-left").css('margin-left', ui.handle.style.left);
+    } else {
+      // потянули правый ползунок - переместим правый span
+      //$("#rub-right").css('margin-left', ui.handle.style.left);
+    }
+
+  }
+
+});
+
+ // $('#rub-left, #rub-right').mask('000.000.000.000.000,00', {reverse: true});
+// $('#rub-left').mask("000 000 000 000", {reverse: true});
+
+$('#rub-left, #rub-right').on('input',function(){
+  var ids = $(this).attr('id');
+  var val_ot, val_do;
+  if(ids=='rub-left'){
+    val_ot=$(this).val();
+    val_do=$('#rub-right').val();
+    var testus = $("#slider-range").slider("values", 1);
+    if(val_do<1){
+      val_do=testus
+    }
+  }else if(ids=='rub-right'){
+    val_do=$(this).val();
+    val_ot=$('#rub-left').val();
+    var testus = $("#slider-range").slider("values", 0);
+    if(val_ot<1){
+
+      val_ot=testus
+    }
+  }
+  console.log(val_ot);
+  console.log(val_do);
+  console.log(testus);
+  $( "#slider-range" ).slider({
+    values: [val_ot,val_do]
+  });
+});
+
+// задать начальный текст левого span
+// $("#rub-left").val($("#slider-range").slider("values", 0));
+// задать начальный текст правого span
+// $("#rub-right").val($("#slider-range").slider("values", 1));
 
 });

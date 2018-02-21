@@ -59,6 +59,9 @@
     <a target="_blank" href="/order_make.php">Оформление заказа</a>
   </li>
   <li>
+    <a target="_blank" href="/list_cat.php">Список категорий</a>
+  </li>
+  <li>
     <a target="_blank" href="/list_tovar.php">Список товаров</a>
   </li>
   <li>

@@ -75,11 +75,12 @@
     </div>
   </div>
 </footer>
-
 <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/slick/slick.min.js"></script>
 <script type="text/javascript" src="/js/jquery.formstyler.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/jquery.mask.min.js"></script>
 <script type="text/javascript" src="/js/script.js"></script>
 
 </body>

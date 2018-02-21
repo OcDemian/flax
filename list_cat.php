@@ -110,12 +110,32 @@
                 </div>
           </div>
         </div>
+        <div class="filter_item filter_cat">
+          <div class="filter_item_name">Кому</div>
+          <div class="filter_item_content">
+            <div class="tovar_cointent_body_info_size tovar_cointent_body_info_size_cat">
+              <a href="#">Для мужчин</a>
+              <a href="#">Для женщин</a>
+              <a href="#">Для детей</a>
+          </div>
+          </div>
+        </div>
       </div>
 
-      <div class="list_tovar_categor list_tovar_categor_detail">
+      <div class="list_tovar_categor">
+
+        <?
+        $cat_title=array('Для<br />мужчин', 'Для<br /> женщин', 'Для<br /> детей');
+        $cat_title_img=array('../image/catalog_baners_1.png', '../image/catalog_baners_2.png', '../image/catalog_baners_3.png');
+        for ($i=0; $i <3 ; $i++) { ?>
+          <div class="list_tovar_categor_item">
+            <div class="list_tovar_categor_item_title">
+              <img class="list_tovar_categor_item_title_img" src="<?=$cat_title_img[$i]?>" alt="">
+              <span class="list_tovar_categor_item_title_text"><?=$cat_title[$i]?></span>
+            </div>
 
             <?
-            for ($u=0; $u < 9; $u++) { ?>
+            for ($u=0; $u < 3; $u++) { ?>
               <div class="list_tovar_categor_item_list">
               <div class="catalog_carusel_item">
               <a class="catalog_carusel_item_link" href="">
@@ -148,6 +168,48 @@
             </div>
             <?}?>
 
+          </div>
+        <?}?>
+         <div class="list_tovar_categor_item list_tovar_categor_item_sale">
+          <div class="list_tovar_categor_item_title">
+            <img class="list_tovar_categor_item_title_img" src="../image/catalog_baners_4.png" alt="">
+            <span class="list_tovar_categor_item_title_text">РАСПРО<br />ДАЖА</span>
+          </div>
+
+          <?
+          for ($u=0; $u < 3; $u++) { ?>
+            <div class="list_tovar_categor_item_list sale">
+            <div class="catalog_carusel_item">
+              <a class="catalog_carusel_item_link" href="">
+                <img src="../image/cat_img_1.png" alt="">
+                <span class="catalog_carusel_item_sale_day">осталось 10 дней</span>
+              </a>
+              <div class="catalog_carusel_item_cont">
+                <p class="catalog_carusel_item_cont_articul">
+                  артикул 777 890
+                </p>
+                <div class="catalog_carusel_item_cont_color">
+                  <a class="use" href="#" style="background:green;"></a>
+                  <a href="#" style="background:blue;"></a>
+                  <a href="#" style="background:yellow;"></a>
+                  <a href="#" style="background:silver;"></a>
+                  <a href="#" style="background:red;"></a>
+                </div>
+                <a href="#" class="catalog_carusel_item_cont_name">Туника 4566</a>
+                <span class="catalog_carusel_item_cont_price">7 790 РУБ.</span>
+              <div class="catalog_carusel_item_cont_basket">
+                <a class="catalog_carusel_item_cont_basket_link" href="#"></a>
+                <div class="catalog_carusel_item_cont_hide">
+                  <a href="#">Положить в корзину</a>
+                  <a href="#">Купить в 1 клик</a>
+                  <a href="#">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <?}?>
+        </div>
         <a class="list_tovar_categor_more_btn" href="#">Показать еще</a>
       </div>
     </div>

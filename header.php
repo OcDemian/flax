@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="/css/jquery.formstyler.css"/>
     <link rel="stylesheet" type="text/css" href="/css/jquery.formstyler.theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery-ui.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
   </head>
   <body>
