@@ -187,4 +187,15 @@ $('#rub-left, #rub-right').on('input',function(){
 // задать начальный текст правого span
 // $("#rub-right").val($("#slider-range").slider("values", 1));
 
+
+$('body').on('click', '.menu_desk_mob', function(e){
+  e.preventDefault();
+  $('ul.menu').toggleClass('open');
+});
+
+$('body').on('click', '.menu_catalog_btn', function(e){
+  e.preventDefault();
+  $('.menu_catalog_mob').toggleClass('open');
+});
+
 });

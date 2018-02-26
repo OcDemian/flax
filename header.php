@@ -45,17 +45,86 @@
         </div>
 
         <div class="header_info">
+          <div class="header_info_menu">
+            <a class="header_info_menu_item" href="#">Возврат товара</a>
+            <a class="header_info_menu_item" href="#">Обмен товара</a>
+            <a class="header_info_menu_item" href="#">Личный кабинет</a>
+          </div>
+          <div class="header_info_local">
+            <a class="header_info_local_phone" href="tel:84952150863">8 (495) 215-08-63</a>
+            <span class="header_info_local_city">Санкт-Петербург</span>
+            <a class="header_info_local_city_more" href="#">другой город</a>
+          </div>
 
+          <a class="header_info_callback" href="#">Заказать звонок</a>
         </div>
       </div>
 
       <div class="menu_background">
         <div class="container menu_container">
-          <ul class="menu">
-
-          </ul>
+          <div class="menu_catalog">
+            <div class="menu_catalog_btn_ico">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <a class="menu_catalog_btn" href="#">Каталог одежды</a>
+          </div>
+          <div class="menu_catalog_mob">
+            <ul class="menu_left_lvl_one">
+              <li class="menu_left_lvl_one_item">
+                <a class="menu_left_lvl_one_item_name" href="#">Для мужчин</a>
+                <ul class="menu_left_lvl_two">
+                  <li class="menu_left_lvl_two_item"><a>Рубашки</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Брюки, шорты</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Жакеты</a></li>
+                </ul>
+              </li>
+              <li class="menu_left_lvl_one_item">
+                <a class="menu_left_lvl_one_item_name" href="#">Для женщин</a>
+                <ul class="menu_left_lvl_two">
+                  <li class="menu_left_lvl_two_item"><a>Блузки, туники</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Брюки, капри, шорты</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Жакеты</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Платья, сарафаны</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Юбки</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Бохо</a></li>
+                </ul>
+              </li>
+              <li class="menu_left_lvl_one_item">
+                <a class="menu_left_lvl_one_item_name" href="#">Для детей</a>
+                <ul class="menu_left_lvl_two">
+                  <li class="menu_left_lvl_two_item"><a>Блузки, туники</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Брюки, капри, шорты</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Жакеты</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Платья, сарафаны</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Юбки</a></li>
+                  <li class="menu_left_lvl_two_item"><a>Бохо</a></li>
+                </ul>
+              </li>
+              <li class="menu_left_lvl_one_item">
+                <a class="menu_left_lvl_one_item_name" href="#">Распродажа</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu_desk">
+            <div class="menu_catalog_btn_ico menu_desk_mob">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="menu">
+              <li class="menu_item"> <a class="menu_item_link" href="">Доставка и оплата </a> </li>
+              <li class="menu_item"> <a class="menu_item_link" href="">Гарантия</a> </li>
+              <li class="menu_item"> <a class="menu_item_link" href="">Контакты</a> </li>
+              <li class="menu_item"> <a class="menu_item_link menu_item_link_sale" href="">Распродажа</a> </li>
+              <li class="menu_item"> <a class="menu_item_link menu_item_link_mob" href="">Возврат товара</a> </li>
+              <li class="menu_item"> <a class="menu_item_link menu_item_link_mob" href="">Обмен товара</a> </li>
+              <li class="menu_item"> <a class="menu_item_link menu_item_link_mob" href="">Личный кабинет</a> </li>
+            </ul>
+          </div>
           <div class="basket_btn">
-
+            <a class="basket_btn_link" href="#">Корзина товаров</a>
           </div>
         </div>
       </div>
