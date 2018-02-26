@@ -67,6 +67,9 @@
   <li>
     <a target="_blank" href="/detail_tovar.php">Детальная страница товара</a>
   </li>
+  <li>
+    <a target="_blank" href="/modal.php">Модалки</a>
+  </li>
 </ul>
 
 <div class="castom_checkbox">

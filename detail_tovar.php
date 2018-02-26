@@ -101,6 +101,10 @@
             </div>
           </div>
 
+          <div class="tovar_cointent_body_photos_3d">
+            <a class="tovar_cointent_body_photos_3d_link" href="#">3D-изображение</a>
+          </div>
+
         </div>
 
         <div class="tovar_cointent_body_info">
@@ -149,6 +153,43 @@
           <div class="tovar_cointent_body_info_btn">
             <a class="tovar_cointent_body_info_btn_basket" href="#">В корзину</a>
             <a class="tovar_cointent_body_info_btn_by_click" href="#">Купить в 1 клик</a>
+          </div>
+        </div>
+
+        <div class="tovar_cointent_body_info_mob">
+          <div class="tovar_cointent_body_info_info">
+
+            <div class="tovar_cointent_body_info_info_item">
+              <span class="tovar_cointent_body_info_info_item_one">цвет:</span>
+              <span class="tovar_cointent_body_info_info_item_two">Белый</span>
+            </div>
+
+            <div class="tovar_cointent_body_info_info_item">
+              <span class="tovar_cointent_body_info_info_item_one">Состав:</span>
+              <span class="tovar_cointent_body_info_info_item_two">Лен 100%</span>
+            </div>
+
+            <div class="tovar_cointent_body_info_info_item">
+              <span class="tovar_cointent_body_info_info_item_one">Размер:</span>
+              <span class="tovar_cointent_body_info_info_item_two">М</span>
+            </div>
+
+            <div class="tovar_cointent_body_info_info_item">
+              <span class="tovar_cointent_body_info_info_item_one">Производитель:</span>
+              <span class="tovar_cointent_body_info_info_item_two">Россия</span>
+            </div>
+
+          </div>
+          <div class="tovar_cointent_body_info_info_mob">
+            <div class="tovar_cointent_body_info_price">
+              <span class="tovar_cointent_body_info_price_new">11 300</span>
+              <span class="tovar_cointent_body_info_price_old">17 680</span>
+            </div>
+
+            <div class="tovar_cointent_body_info_btn">
+              <a class="tovar_cointent_body_info_btn_basket" href="#">В корзину</a>
+              <a class="tovar_cointent_body_info_btn_by_click" href="#">Купить в 1 клик</a>
+            </div>
           </div>
         </div>
       </div>

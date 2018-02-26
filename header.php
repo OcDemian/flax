@@ -68,7 +68,7 @@
               <span></span>
               <span></span>
             </div>
-            <a class="menu_catalog_btn" href="#">Каталог одежды</a>
+            <a class="menu_catalog_btn" href="/">Каталог одежды</a>
           </div>
           <div class="menu_catalog_mob">
             <ul class="menu_left_lvl_one">
@@ -113,6 +113,9 @@
               <span></span>
               <span></span>
             </div>
+            <a class="menu_desk_mob_search" href="#">
+              <img class="menu_desk_mob_search_img" src="../img/search_ico_white.png" alt="">
+            </a>
             <ul class="menu">
               <li class="menu_item"> <a class="menu_item_link" href="">Доставка и оплата </a> </li>
               <li class="menu_item"> <a class="menu_item_link" href="">Гарантия</a> </li>
