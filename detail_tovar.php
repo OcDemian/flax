@@ -73,16 +73,16 @@
         <div class="tovar_cointent_body_photos">
           <div class="tovar_cointent_body_photos_big sale">
             <div class="tovar_cointent_body_photos_big_item">
-              <img src="../image/detail_tovar1.png" alt="">
+              <img class="tovar_cointent_body_photos_big_item_zoom" src="../image/detail_tovar1.png" alt="">
             </div>
             <div class="tovar_cointent_body_photos_big_item">
-              <img src="../image/detail_tovar2.png" alt="">
+              <img class="tovar_cointent_body_photos_big_item_zoom" src="../image/detail_tovar2.png" alt="">
             </div>
             <div class="tovar_cointent_body_photos_big_item">
-              <img src="../image/detail_tovar1.png" alt="">
+              <img class="tovar_cointent_body_photos_big_item_zoom" src="../image/detail_tovar1.png" alt="">
             </div>
             <div class="tovar_cointent_body_photos_big_item">
-              <img src="../image/detail_tovar2.png" alt="">
+              <img class="tovar_cointent_body_photos_big_item_zoom" src="../image/detail_tovar2.png" alt="">
             </div>
           </div>
 

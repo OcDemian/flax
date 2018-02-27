@@ -60,11 +60,23 @@
           </div>
           <div class="registration_main_item">
             <label for="">Способ оплаты*</label>
-            <input type="text" name="" value="">
+            <select name="salutation" id="payment_method">
+              <option disabled selected>Выберите способ оплаты</option>
+              <option>Наличка</option>
+              <option>Безнал</option>
+              <option>Бартер</option>
+            </select>
           </div>
           <div class="registration_main_item">
             <label for="">Способ доставки*</label>
-            <input type="text" name="" value="">
+            <select name="salutation" id="delivery_method">
+              <option disabled selected>Выберите способ доставки</option>
+              <option>Самовывоз</option>
+              <option>Курьер</option>
+              <option>Почта России</option>
+              <option>Голубь</option>
+              <option>Телепортация</option>
+            </select>
           </div>
           <div class="registration_main_item">
             <label for="">Комментарий к заказу</label>

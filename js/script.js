@@ -155,69 +155,77 @@ $(document).ready(function(){
  // $('#rub-left, #rub-right').mask('000.000.000.000.000,00', {reverse: true});
 // $('#rub-left').mask("000 000 000 000", {reverse: true});
 
-$('.phone_mask').mask("+7 (000) 000 - 00 - 00", {placeholder: "+7 ( _ _ _ ) _ _ _ - _ _ - _ _"});
+  $('.phone_mask').mask("+7 (000) 000 - 00 - 00", {placeholder: "+7 ( _ _ _ ) _ _ _ - _ _ - _ _"});
 
-$('#rub-left, #rub-right').on('input',function(){
-  var ids = $(this).attr('id');
-  var val_ot, val_do;
-  if(ids=='rub-left'){
-    val_ot=$(this).val();
-    val_do=$('#rub-right').val();
-    var testus = $("#slider-range").slider("values", 1);
-    if(val_do<1){
-      val_do=testus
-    }
-  }else if(ids=='rub-right'){
-    val_do=$(this).val();
-    val_ot=$('#rub-left').val();
-    var testus = $("#slider-range").slider("values", 0);
-    if(val_ot<1){
+  $('#rub-left, #rub-right').on('input',function(){
+    var ids = $(this).attr('id');
+    var val_ot, val_do;
+    if(ids=='rub-left'){
+      val_ot=$(this).val();
+      val_do=$('#rub-right').val();
+      var testus = $("#slider-range").slider("values", 1);
+      if(val_do<1){
+        val_do=testus
+      }
+    }else if(ids=='rub-right'){
+      val_do=$(this).val();
+      val_ot=$('#rub-left').val();
+      var testus = $("#slider-range").slider("values", 0);
+      if(val_ot<1){
 
-      val_ot=testus
+        val_ot=testus
+      }
     }
-  }
-  console.log(val_ot);
-  console.log(val_do);
-  console.log(testus);
-  $( "#slider-range" ).slider({
-    values: [val_ot,val_do]
+    console.log(val_ot);
+    console.log(val_do);
+    console.log(testus);
+    $( "#slider-range" ).slider({
+      values: [val_ot,val_do]
+    });
   });
-});
 
-// задать начальный текст левого span
-// $("#rub-left").val($("#slider-range").slider("values", 0));
-// задать начальный текст правого span
-// $("#rub-right").val($("#slider-range").slider("values", 1));
+  // задать начальный текст левого span
+  // $("#rub-left").val($("#slider-range").slider("values", 0));
+  // задать начальный текст правого span
+  // $("#rub-right").val($("#slider-range").slider("values", 1));
 
 
-$('body').on('click', '.menu_desk_mob', function(e){
-  e.preventDefault();
-  $('ul.menu').toggleClass('open');
-});
-
-$('body').on('click', '.menu_catalog_btn', function(e){
-  var wid= $(window).width();
-  if(wid>983){
-
-  }else{
+  $('body').on('click', '.menu_desk_mob', function(e){
     e.preventDefault();
-    $('.menu_catalog_mob').toggleClass('open');
-  }
+    $('ul.menu').toggleClass('open');
+  });
 
-});
+  $('body').on('click', '.menu_catalog_btn', function(e){
+    var wid= $(window).width();
+    if(wid>983){
 
-$('body').on('click', '.open_modal', function(e){
-  e.preventDefault();
-  var modal= $(this).attr('data_modal');
-  $('.mobal_back').fadeIn();
-  $('#'+modal).fadeIn();
-  console.log(modal);
-});
+    }else{
+      e.preventDefault();
+      $('.menu_catalog_mob').toggleClass('open');
+    }
 
-$('body').on('click', '.mobal_back, .mobal_castom_close', function(e){
-  e.preventDefault();
-  $('.mobal_back').fadeOut();
-  $('.mobal_castom').fadeOut();
-});
+  });
 
+  $('body').on('click', '.open_modal', function(e){
+    e.preventDefault();
+    var modal= $(this).attr('data_modal');
+    $('.mobal_back').fadeIn();
+    $('#'+modal).fadeIn();
+    console.log(modal);
+  });
+
+  $('body').on('click', '.mobal_back, .mobal_castom_close', function(e){
+    e.preventDefault();
+    $('.mobal_back').fadeOut();
+    $('.mobal_castom').fadeOut();
+  });
+
+    $( "#payment_method" ).selectmenu();
+
+    $( "#delivery_method" ).selectmenu();
+
+    $(".tovar_cointent_body_photos_big_item_zoom").imagezoomsl({
+
+         zoomrange: [3, 3]
+      });
 });

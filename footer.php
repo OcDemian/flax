@@ -197,6 +197,7 @@
           <div class="mobal_castom_basket_info_btn">
             <button class="mobal_castom_basket_info_btn_more" type="button" name="button">продолжить покупки</button>
             <button class="mobal_castom_basket_info_btn_basket" type="button" name="button">перейти к оформлению заказа</button>
+            <button class="mobal_castom_basket_info_btn_basket_mob" type="button" name="button">оформить заказа</button>
           </div>
         </div>
       </div>
@@ -286,7 +287,7 @@
 
   </div>
 
-  <div id="mobal_castom_phone" class="mobal_castom">
+  <div id="mobal_castom_phone" class="mobal_castom mobal_castom_phone_posit">
     <button class="mobal_castom_close" href="#">
       <img src="../img/close_modal.png" alt="">
     </button>
@@ -321,12 +322,14 @@
   </div>
 
 </footer>
-<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+<!-- <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script> -->
+<script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/slick/slick.min.js"></script>
 <script type="text/javascript" src="/js/jquery.formstyler.min.js"></script>
 <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="/js/zoomsl-3.0.min.js"></script>
 <script type="text/javascript" src="/js/script.js"></script>
 
 </body>
