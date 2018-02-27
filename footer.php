@@ -158,22 +158,164 @@
           </div>
         </div>
 
-        <form class="" action="index.html" method="post">
-          <input type="text" name="" value="">
-          <input type="text" name="" value="">
-          <div class="  castom_checkbox">
-          <input class="castom_checkbox_input " id="agreement" type="checkbox" name="" value="">
-          <label class="castom_checkbox_label " for="agreement"></label>
-          <p class="">
-            Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в <a>Согласии на обработку персональных данных</a>
-          </p>
-        </div>
+        <form class="mobal_castom_by_info_form" action="index.html" method="post">
+          <input class="mobal_castom_by_info_form_input" type="text" name="name" value="" placeholder="Ваше имя">
+          <input class="mobal_castom_by_info_form_input" type="text" name="phone" value="" placeholder="Ваш телефон">
+          <div class="mobal_castom_by_info_form_check  castom_checkbox">
+            <input class="castom_checkbox_input" id="agreement2"  type="checkbox" name="" value="">
+            <label class="castom_checkbox_label" for="agreement2">
+
+            </label>
+            <p class="">
+              Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в <a>Согласии на обработку персональных данных</a>
+            </p>
+          </div>
           <div class="tovar_cointent_body_info_btn">
-            <a class="tovar_cointent_body_info_btn_basket" href="#">Купить</a>
+            <input class="tovar_cointent_body_info_btn_basket" type="submit" name="" value="Купить">
           </div>
         </form>
 
       </div>
+    </div>
+
+  </div>
+
+  <div id="mobal_castom_basket" class="mobal_castom mobal_castom_basket_posit">
+    <button class="mobal_castom_close" href="#">
+      <img src="../img/close_modal.png" alt="">
+    </button>
+
+    <div class="mobal_castom_basket">
+      <div class="mobal_castom_basket_top line_big_bottom">
+        <div class="mobal_castom_basket_photo">
+          <img class="mobal_castom_basket_img" src="../image/detail_tovar1.png" alt="">
+        </div>
+        <div class="mobal_castom_basket_info">
+          <div class="mobal_castom_title">
+            <b>Товар добавлен в корзину</b>
+          </div>
+          <div class="mobal_castom_basket_info_btn">
+            <button class="mobal_castom_basket_info_btn_more" type="button" name="button">продолжить покупки</button>
+            <button class="mobal_castom_basket_info_btn_basket" type="button" name="button">перейти к оформлению заказа</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobal_castom_basket_tovar">
+        <div class="mobal_castom_basket_tovar_title">
+          С этим товароМ покупают
+        </div>
+        <div class="tovar_cointent_more_body">
+                      <div class="catalog_carusel_item">
+              <a href=""><img src="../image/cat_img_1.png" alt=""></a>
+              <div class="catalog_carusel_item_cont">
+                <p class="catalog_carusel_item_cont_articul">
+                  артикул 777 890
+                </p>
+                <div class="catalog_carusel_item_cont_color">
+                  <a class="use" href="#" style="background:green;"></a>
+                  <a href="#" style="background:blue;"></a>
+                  <a href="#" style="background:yellow;"></a>
+                  <a href="#" style="background:silver;"></a>
+                  <a href="#" style="background:red;"></a>
+                </div>
+                <a href="#" class="catalog_carusel_item_cont_name">Туника 4566</a>
+                <span class="catalog_carusel_item_cont_price">7 790 РУБ.</span>
+                <div class="catalog_carusel_item_cont_basket">
+                  <a class="catalog_carusel_item_cont_basket_link" href="#"></a>
+                  <div class="catalog_carusel_item_cont_hide">
+                    <a href="#">Положить в корзину</a>
+                    <a href="#">Купить в 1 клик</a>
+                    <a href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+                      <div class="catalog_carusel_item">
+              <a href=""><img src="../image/cat_img_1.png" alt=""></a>
+              <div class="catalog_carusel_item_cont">
+                <p class="catalog_carusel_item_cont_articul">
+                  артикул 777 890
+                </p>
+                <div class="catalog_carusel_item_cont_color">
+                  <a class="use" href="#" style="background:green;"></a>
+                  <a href="#" style="background:blue;"></a>
+                  <a href="#" style="background:yellow;"></a>
+                  <a href="#" style="background:silver;"></a>
+                  <a href="#" style="background:red;"></a>
+                </div>
+                <a href="#" class="catalog_carusel_item_cont_name">Туника 4566</a>
+                <span class="catalog_carusel_item_cont_price">7 790 РУБ.</span>
+                <div class="catalog_carusel_item_cont_basket">
+                  <a class="catalog_carusel_item_cont_basket_link" href="#"></a>
+                  <div class="catalog_carusel_item_cont_hide">
+                    <a href="#">Положить в корзину</a>
+                    <a href="#">Купить в 1 клик</a>
+                    <a href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="mobal_castom_city" class="mobal_castom mobal_castom_city_posit">
+    <button class="mobal_castom_close" href="#">
+      <img src="../img/close_modal.png" alt="">
+    </button>
+
+    <div class="mobal_castom_city">
+      <div class="mobal_castom_title">
+        <b>Выбор города</b>
+      </div>
+      <ul class="mobal_castom_city_title_list">
+        <li class="mobal_castom_city_title_list_item">
+          <a class="mobal_castom_city_title_list_item_link">Москва </a>
+        </li>
+        <li class="mobal_castom_city_title_list_item">
+          <a class="mobal_castom_city_title_list_item_link">Санкт-Петербург</a>
+        </li>
+        <li class="mobal_castom_city_title_list_item">
+          <a class="mobal_castom_city_title_list_item_link">Регионы</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div id="mobal_castom_phone" class="mobal_castom">
+    <button class="mobal_castom_close" href="#">
+      <img src="../img/close_modal.png" alt="">
+    </button>
+
+    <div class="mobal_castom_phone">
+      <div class="mobal_castom_title">
+        <b>Заказ звонка</b>
+      </div>
+
+      <form class="mobal_castom_phone_form" action="index.html" method="post">
+        <div class="registration_main_item">
+          <label for="">Ваше имя</label>
+          <input type="text" name="" value="" placeholder="Иван">
+        </div>
+        <div class="registration_main_item">
+          <label for="">Ваш телефон</label>
+          <input class="phone_mask" type="text" name="" value="">
+        </div>
+
+        <div class="mobal_castom_phone_form_check castom_checkbox">
+          <input class="castom_checkbox_input" id="agreement" type="checkbox" name="" value="">
+          <label class="castom_checkbox_label" for="agreement"></label>
+          <p class="">
+            Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в <a>Согласии на обработку персональных данных</a>
+          </p>
+        </div>
+
+        <input class="mobal_castom_phone_form_btn" type="submit" name="" value="перезвоните мне">
+      </form>
     </div>
 
   </div>

@@ -155,6 +155,8 @@ $(document).ready(function(){
  // $('#rub-left, #rub-right').mask('000.000.000.000.000,00', {reverse: true});
 // $('#rub-left').mask("000 000 000 000", {reverse: true});
 
+$('.phone_mask').mask("+7 (000) 000 - 00 - 00", {placeholder: "+7 ( _ _ _ ) _ _ _ - _ _ - _ _"});
+
 $('#rub-left, #rub-right').on('input',function(){
   var ids = $(this).attr('id');
   var val_ot, val_do;

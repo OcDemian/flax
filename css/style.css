@@ -2512,6 +2512,10 @@ label.registration_main_item_check{
   position: relative;
 }
 
+.line_big_bottom{
+  position: relative;
+}
+
 .line_big_bottom:after{
   content: '';
   display: block;
@@ -2979,11 +2983,24 @@ footer{
   display: none;
   position: fixed;
   background-color: #fff;
-  top:15%;
+  top:5%;
   left:calc(50% - 380px);
   padding: 30px 25px;
   z-index: 1100;
   width: 760px;
+  max-height: 96vh;
+  overflow-y: auto;
+}
+
+.mobal_castom_basket_posit{
+  top:1%;
+}
+
+.mobal_castom_city_posit{
+  width: auto;
+  top:30%;
+  min-width: 430px;
+  left:calc(50% - 210px);
 }
 
 .mobal_castom_close{
@@ -2992,6 +3009,7 @@ footer{
   right: 25px;
   background: none;
   border: none;
+  z-index: 111111;
 }
 
 .mobal_castom_close:focus{
@@ -3032,8 +3050,187 @@ footer{
   justify-content: space-between;
 }
 
+.mobal_castom_by_info_form_input{
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  height: 42px;
+  color: rgb(36, 45, 64);
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.mobal_castom_by_info_form_check{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobal_castom_by_info_form_check p{
+  width: calc(100% - 28px);
+}
+
+.tovar_cointent_body_info_btn{
+  position: relative;
+}
+
+.tovar_cointent_body_info_btn:before{
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../img/ico_basket.png");
+  width: 27px;
+  height: 22px;
+  z-index: 10;
+  top:calc(50% - 11px);
+  left: calc(40% - 14px);
+}
+
 .mobal_castom .tovar_cointent_body_info_btn_basket{
   margin: 0;
+  border: none;
+  width: 100%;
+  padding-left: 45%;
+  justify-content: flex-start;
+}
+
+.mobal_castom_basket{
+
+}
+
+.mobal_castom_basket_top{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mobal_castom_basket_photo{
+  width: 25%;
+  margin-right: 40px;
+}
+
+.mobal_castom_basket_img{
+  width: 100%;
+}
+
+.mobal_castom_basket_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(75% - 40px);
+}
+
+.mobal_castom_basket_info_title{
+  font-size: 30px;
+  font-family: "FavoritC";
+  color: rgb(36, 45, 64);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mobal_castom_basket_info_btn{
+  display: flex;
+  flex-direction: column;
+}
+
+.mobal_castom_basket_info_btn_more{
+  border: none;
+  background-color: rgb(123, 162, 112);
+  width: 293px;
+  height: 44px;
+  font-family: "FavoritC";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.mobal_castom_basket_info_btn_basket {
+  background-color: rgb(36, 45, 64);
+  border: none;
+  width: 377px;
+  height: 44px;
+  font-family: "FavoritC";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mobal_castom_basket .line_big_bottom:after{
+  content: '';
+  display: block;
+  left: 0;
+  right: 0;
+  height: 9px;
+  background-position: center;
+  background-image: url(../img/goriz_line_long.png);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.mobal_castom_basket_tovar_title {
+  font-size: 30px;
+  font-family: "FavoritC";
+  color: rgb(36, 45, 64);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mobal_castom_basket .tovar_cointent_more_body{
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.mobal_castom_basket .catalog_carusel_item{
+  width: 40%;
+  margin-bottom: 0;
+}
+
+.mobal_castom_city{
+
+}
+
+.mobal_castom_city_title{
+  font-size: 30px;
+  font-family: "FavoritC";
+  color: rgb(36, 45, 64);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.mobal_castom_city_title_list{
+  padding: 0;
+}
+
+.mobal_castom_city_title_list_item_link{
+  font-size: 18px;
+  color: rgb(36, 45, 64);
+  text-decoration: underline;
+  line-height: 1.667;
+}
+
+.mobal_castom_phone_form_check{
+  display: flex;
+  padding-left: 27%;
+  justify-content: space-between;
+}
+
+.mobal_castom_phone_form_check p{
+  width: calc(100% - 28px);
+}
+
+.mobal_castom_phone_form_btn{
+  background-color: rgb(123, 162, 112);
+  border: none;
+  margin-left: 27%;
+  width: 299px;
+  height: 44px;
+  font-family: "FavoritC";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+
 }
 
 /* /FOOTER */
@@ -3691,6 +3888,12 @@ footer{
 
   .tovar_cointent_body_info_mob .tovar_cointent_body_info_price{
     margin-bottom: 10px;
+  }
+
+  .mobal_castom{
+    width: 100%;
+    left:10px;
+    right: 10px;
   }
 
 }
