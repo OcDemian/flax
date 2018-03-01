@@ -716,6 +716,10 @@ h2.goriz_line::after{
   overflow: hidden;
 }
 
+.list_tovar_categor_detail .catalog_carusel_item{
+  padding: 0;
+}
+
 .catalog_carusel_item_link{
   display: block;
   position: relative;
@@ -2176,7 +2180,7 @@ label.registration_main_item_check{
   position: relative;
 }
 
-.tovar_cointent_list_btn_prew:hover{
+.tovar_cointent_list_btn_prew:hover, .tovar_cointent_list_btn_prew:focus{
   color:#fff;
 }
 
@@ -2203,7 +2207,7 @@ label.registration_main_item_check{
   position: relative;
 }
 
-.tovar_cointent_list_btn_next:hover{
+.tovar_cointent_list_btn_next:hover, .tovar_cointent_list_btn_next:focus{
   color:#fff;
 }
 
@@ -2667,7 +2671,8 @@ label.registration_main_item_check{
   margin: auto;
 }
 
-.list_tovar_categor_more_btn:hover{
+
+.list_tovar_categor_more_btn:hover, .list_tovar_categor_more_btn:focus{
   color:#fff;
 }
 
@@ -2795,6 +2800,11 @@ label.registration_main_item_check{
   width: 32%;
   margin-bottom: 80px;
 }
+
+.list_tovar_categor_detail .list_tovar_categor_item_list.sale{
+  width: 100%;
+}
+
 /* FOOTER */
 
 .social_background {
@@ -3126,7 +3136,7 @@ footer{
   position: relative;
 }
 
-.tovar_cointent_body_info_btn:before{
+.mobal_castom .tovar_cointent_body_info_btn:before{
   content: "";
   position: absolute;
   display: block;
@@ -3295,6 +3305,14 @@ footer{
   .list_tovar_categor_item_sale{
     display: block
   }
+
+  /* .list_tovar_categor_detail {
+    width: 134%;
+  }
+
+  .list_tovar_categor_detail .list_tovar_categor_item_list{
+    width: 24%;
+  } */
 }
 
 
@@ -3597,12 +3615,21 @@ footer{
     padding: 0 40px;
   }
 
+  .catalog_carusel {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   .catalog_carusel .slick-prev{
-    left: 0;
+    left: 5px;
   }
 
   .catalog_carusel .slick-next{
-    right: 0;
+    right: 5px;
+  }
+
+  .catalog_baner{
+    padding: 0 40px;
   }
 
   .catalog_baner_item_text{
@@ -4681,11 +4708,11 @@ footer{
     width: 100%;
   }
   .catalog_carusel .slick-prev{
-    left: -10px;
+    left: 5px;
   }
 
   .catalog_carusel .slick-next{
-    right: -10px;
+    right: 5px;
   }
 
   h1.main_h1{
@@ -4696,4 +4723,57 @@ footer{
     font-size: 12px;
   }
 
+}
+
+
+.color_check{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.color_check_text{
+  width: 23px;
+  height: 23px;
+  margin: 4px 7.5px;
+  position: relative;
+}
+
+.color_check_text:hover{
+
+}
+
+.color_check_text_input{
+  border: none;
+  background: none;
+  height:0;
+  cursor: pointer;
+  /* overflow: hidden; */
+}
+
+.color_check_text_input:hover{
+  cursor: pointer;
+}
+
+.color_check_text:hover .color_check_text_input::before{
+  content: "";
+  position: absolute;
+  display: block;
+  border: 1px solid #000;
+  top:-4px;
+  bottom:-4px;
+  left:-4px;
+  right: -4px;
+  cursor: pointer;
+}
+
+.color_check_text_input:checked::before{
+  content: "";
+  position: absolute;
+  display: block;
+  border: 1px solid #000;
+  top:-3px;
+  bottom:-3px;
+  left:-3px;
+  right: -3px;
+  cursor: pointer;
 }

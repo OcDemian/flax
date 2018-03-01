@@ -77,4 +77,46 @@
   <label class="castom_checkbox_label" for="agreement"></label>
 </div>
 
+<div class="container color_check">
+  <label style="background-color:red;" class="color_check_text">
+    <input class="color_check_text_input" type="checkbox" name="test1" value="">
+  </label>
+
+  <label style="background-color:red;" class="color_check_text">
+    <input class="color_check_text_input" type="checkbox" name="test1" value="">
+  </label>
+
+  <label style="background-color:red;" class="color_check_text">
+    <input class="color_check_text_input" type="checkbox" name="test1" value="">
+  </label>
+
+  <label style="background-color:red;" class="color_check_text">
+    <input class="color_check_text_input" type="checkbox" name="test1" value="">
+  </label>
+</div>
+
+<div class="color_check catalog_carusel_item_cont_color">
+  <form>
+    <label style="background-color:green;" class="color_check_text">
+      <input class="color_check_text_input" type="radio" name="test1" value="">
+    </label>
+
+    <label style="background-color:blue;" class="color_check_text">
+      <input class="color_check_text_input" type="radio" name="test1" value="">
+    </label>
+
+    <label style="background-color:yellow;" class="color_check_text">
+      <input class="color_check_text_input" type="radio" name="test1" value="">
+    </label>
+
+    <label style="background-color:silver;" class="color_check_text">
+      <input class="color_check_text_input" type="radio" name="test1" value="">
+    </label>
+
+    <label style="background-color:#00BCD4;" class="color_check_text">
+      <input class="color_check_text_input" type="radio" name="test1" value="">
+    </label>
+  </form>
+</div>
+
 <?include "footer.php";?>

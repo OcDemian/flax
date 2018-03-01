@@ -38,7 +38,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container container_40">
   <div class="catalog_baner">
     <div class="catalog_baner_item">
       <img class="catalog_baner_item_fon" src="../image/catalog_baners_1.png" alt="">
@@ -71,12 +71,35 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
+        <!-- <div class="catalog_carusel_item_cont_color">
           <a class="use" href="#" style="background:green;"></a>
           <a href="#" style="background:blue;"></a>
           <a href="#" style="background:yellow;"></a>
           <a href="#" style="background:silver;"></a>
           <a href="#" style="background:red;"></a>
+        </div> -->
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:yellow;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:red;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Туника 4566</a>
         <span class="catalog_carusel_item_cont_price">7 790 РУБ.</span>
@@ -97,11 +120,24 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:silver;"></a>
-          <a href="#" style="background:red;"></a>
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:red;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Пальто 445</a>
         <span class="catalog_carusel_item_cont_price">12 990 РУБ.</span>
@@ -121,12 +157,29 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:yellow;"></a>
-          <a href="#" style="background:silver;"></a>
-          <a href="#" style="background:#00BCD4;"></a>
+
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:yellow;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:#00BCD4;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Туника 0998</a>
         <span class="catalog_carusel_item_cont_price">4 330 РУБ.</span>
@@ -146,10 +199,21 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:#00BCD4;"></a>
+
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:#00BCD4;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Комплект 3345</a>
         <span class="catalog_carusel_item_cont_price">7 400 РУБ.</span>
@@ -169,12 +233,29 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:yellow;"></a>
-          <a href="#" style="background:silver;"></a>
-          <a href="#" style="background:red;"></a>
+
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:yellow;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:red;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Туника 4566</a>
         <span class="catalog_carusel_item_cont_price">7 790 РУБ.</span>
@@ -199,12 +280,28 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:yellow;"></a>
-          <a href="#" style="background:silver;"></a>
-          <a href="#" style="background:red;"></a>
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:yellow;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:red;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Туника 4566</a>
         <span class="catalog_carusel_item_cont_price">7 790 РУБ.</span>
@@ -225,11 +322,24 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:silver;"></a>
-          <a href="#" style="background:red;"></a>
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:red;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Пальто 445</a>
         <span class="catalog_carusel_item_cont_price">12 990 РУБ.</span>
@@ -249,12 +359,29 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:yellow;"></a>
-          <a href="#" style="background:silver;"></a>
-          <a href="#" style="background:#00BCD4;"></a>
+
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:yellow;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:#00BCD4;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Туника 0998</a>
         <span class="catalog_carusel_item_cont_price">4 330 РУБ.</span>
@@ -274,10 +401,21 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:#00BCD4;"></a>
+
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:#00BCD4;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Комплект 3345</a>
         <span class="catalog_carusel_item_cont_price">7 400 РУБ.</span>
@@ -297,12 +435,28 @@
         <p class="catalog_carusel_item_cont_articul">
           артикул 777 890
         </p>
-        <div class="catalog_carusel_item_cont_color">
-          <a href="#" style="background:green;"></a>
-          <a href="#" style="background:blue;"></a>
-          <a href="#" style="background:yellow;"></a>
-          <a href="#" style="background:silver;"></a>
-          <a href="#" style="background:red;"></a>
+        <div class="color_check catalog_carusel_item_cont_color">
+          <form>
+            <label style="background-color:green;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:blue;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:yellow;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:silver;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+
+            <label style="background-color:red;" class="color_check_text">
+              <input class="color_check_text_input" type="radio" name="test1" value="">
+            </label>
+          </form>
         </div>
         <a href="#" class="catalog_carusel_item_cont_name">Туника 4566</a>
         <span class="catalog_carusel_item_cont_price">7 790 РУБ.</span>
