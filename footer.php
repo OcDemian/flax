@@ -100,20 +100,25 @@
         <div class="">
           <div class="color_check tovar_cointent_body_info_color">
             <form>
-              <label style="background-color:blue;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:green;"></span>
               </label>
-
-              <label style="background-color:yellow;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:blue;"></span>
               </label>
-
-              <label style="background-color:silver;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:yellow;"></span>
               </label>
-
-              <label style="background-color:#00BCD4;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:silver;"></span>
+              </label>
+              <label class="color_check_text">
+                <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:#00BCD4;"></span>
               </label>
             </form>
           </div>
@@ -155,20 +160,25 @@
         <div class="">
           <div class="color_check tovar_cointent_body_info_color">
             <form>
-              <label style="background-color:blue;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:green;"></span>
               </label>
-
-              <label style="background-color:yellow;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:blue;"></span>
               </label>
-
-              <label style="background-color:silver;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:yellow;"></span>
               </label>
-
-              <label style="background-color:#00BCD4;" class="color_check_text">
+              <label class="color_check_text">
                 <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:silver;"></span>
+              </label>
+              <label class="color_check_text">
+                <input class="color_check_text_input" type="radio" name="test1" value="">
+                <span class="color_check_text_span" style="background-color:#00BCD4;"></span>
               </label>
             </form>
           </div>
@@ -243,24 +253,25 @@
                 </p>
                 <div class="color_check catalog_carusel_item_cont_color">
                   <form>
-                    <label style="background-color:green;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:green;"></span>
                     </label>
-
-                    <label style="background-color:blue;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:blue;"></span>
                     </label>
-
-                    <label style="background-color:yellow;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:yellow;"></span>
                     </label>
-
-                    <label style="background-color:silver;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:silver;"></span>
                     </label>
-
-                    <label style="background-color:#00BCD4;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:#00BCD4;"></span>
                     </label>
                   </form>
                 </div>
@@ -284,24 +295,25 @@
                 </p>
                 <div class="color_check catalog_carusel_item_cont_color">
                   <form>
-                    <label style="background-color:green;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:green;"></span>
                     </label>
-
-                    <label style="background-color:blue;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:blue;"></span>
                     </label>
-
-                    <label style="background-color:yellow;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:yellow;"></span>
                     </label>
-
-                    <label style="background-color:silver;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:silver;"></span>
                     </label>
-
-                    <label style="background-color:#00BCD4;" class="color_check_text">
+                    <label class="color_check_text">
                       <input class="color_check_text_input" type="radio" name="test1" value="">
+                      <span class="color_check_text_span" style="background-color:#00BCD4;"></span>
                     </label>
                   </form>
                 </div>

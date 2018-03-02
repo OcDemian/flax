@@ -1256,6 +1256,10 @@ h2.goriz_line::after{
   border: none;
 }
 
+.basket_rezult_cupon_btn:focus{
+  outline: none;
+}
+
 .basket_rezult_all{
   text-align: right;
   font-size: 24px;
@@ -4692,6 +4696,23 @@ footer{
     min-width: auto;
   }
 
+  .basket_rezult_cupon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .basket_rezult_cupon_text{
+    font-size: 14px;
+    padding: 13px 10px;
+    margin-right: 5px;
+  }
+
+  .basket_rezult_cupon_btn{
+    font-size: 15px;
+    padding: 13px 10px;
+  }
+
 }
 
 @media (max-width: 378px) {
@@ -4732,41 +4753,42 @@ footer{
 }
 
 .color_check_text{
-  width: 23px;
-  height: 23px;
   margin: 4px 7.5px;
   position: relative;
 }
 
-.color_check_text:hover{
-
+.color_check_text_span{
+  width: 23px;
+  height: 23px;
+  display: block;
+  position: relative;
+  z-index: 6;
 }
 
 .color_check_text_input{
-  border: none;
-  background: none;
-  height:0;
   cursor: pointer;
-  /* overflow: hidden; */
+  position: absolute;
+  z-index: 2;
+  left:5px;
 }
 
 .color_check_text_input:hover{
   cursor: pointer;
 }
 
-.color_check_text:hover .color_check_text_input::before{
+.color_check_text_input:checked + .color_check_text_span::before{
   content: "";
   position: absolute;
   display: block;
   border: 1px solid #000;
-  top:-4px;
-  bottom:-4px;
-  left:-4px;
-  right: -4px;
+  top:-3px;
+  bottom:-3px;
+  left:-3px;
+  right: -3px;
   cursor: pointer;
 }
 
-.color_check_text_input:checked::before{
+.color_check_text_input + .color_check_text_span:hover::before{
   content: "";
   position: absolute;
   display: block;
